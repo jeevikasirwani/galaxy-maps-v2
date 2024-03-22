@@ -27,7 +27,7 @@
               :light="!dark"
               color="missionAccent"
               v-model="currentNode.label"
-              :autofocus="!editing"
+              autofocus
               label="Topic title"
               placeholder="Enter name of this node/topic"
             ></v-text-field>
